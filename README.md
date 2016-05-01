@@ -1,12 +1,8 @@
 <!--- logo generated with "figlet -w 52 -cf smslant jsh && echo -e "\\t\\t\\ta basic UNIX shell implementation in C"" --->
-```
+<b>
 a basic UNIX shell implementation in C [![build-status](https://travis-ci.org/jovanbulck/jsh.svg?branch=master)](https://travis-ci.org/jovanbulck/jsh) [![release](http://github-release-version.herokuapp.com/github/jovanbulck/jsh/release.svg?style=plastic)](https://github.com/jovanbulck/jsh/releases/latest) [![license](http://img.shields.io/:license-gpl3-orange.svg)](https://gnu.org/licenses/gpl.html)
-```
-From the `man`page:
+</b>
 
-> `jsh` is a UNIX command interpreter (shell) that executes commands read from the standard input or from a file. `jsh` implements a subset of the `sh` language grammar and is intended to be POSIX-conformant.
-
-> `jsh` is written 'just for fun' and is not intented to be a full competitor to advanced UNIX shells such as `bash` and `zsh`. `jsh` is free software and you are welcome to collaborate on the github page or to redistribute jsh under the conditions of the GNU General Public License.
 
 ## Find out more
 
