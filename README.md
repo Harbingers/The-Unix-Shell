@@ -60,10 +60,10 @@ The `jsh` shell can execute any executable, identified by either an absolute or 
 
 ## Find out
 
-| [Installation guide](https://github.com/jovanbulck/jsh/wiki/Compiling-and-running) | [Configuration](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [Manual](https://github.com/jovanbulck/jsh/wiki/Manual) |  
+ | [Configuration](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [Manual](https://github.com/jovanbulck/jsh/wiki/Manual) |  
 |----|----------|----------|---------|---------|
-| [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/wrench.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Compiling-and-running) | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/cog.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/book.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Manual) |
-| Introducing the shell | Step-by-step guide to build `jsh`for your own system | Configuring the shell for your own use | Online text version of the latest `man jsh` | 
+ | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/cog.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/book.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Manual) |
+ | Step-by-step guide to build `jsh`for your own system | Configuring the shell for your own use | Online text version of the latest `man jsh` | 
 
 ##  Configuration files:
  * `~/.jshrc`: file containing commands to be executed at login
