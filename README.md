@@ -4,7 +4,7 @@ A BASIC UNIX SHELL IMPLEMENTATION IN C <br /><br /> [![build-status](https://tra
 </b>
 
 
-## Find out more
+## Find out
 
 | [About](https://github.com/jovanbulck/jsh/wiki/About) | [Installation guide](https://github.com/jovanbulck/jsh/wiki/Compiling-and-running) | [Configuration](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [Manual](https://github.com/jovanbulck/jsh/wiki/Manual) | [Contributing](https://github.com/jovanbulck/jsh/blob/master/CONTRIBUTING.md) |
 |----|----------|----------|---------|---------|
