@@ -183,14 +183,6 @@ This is how it looks in a terminal:
 
 ## Sample ~/.inputrc file
 
-`jsh` uses the GNU `readline` library for user input line editing and history. `Readline`'s behavior can be customized by including [commands](http://cnswww.cns.cwru.edu/php/chet/readline/readline.html#SEC9) in the `~/.inputrc` file.
-
-When `jsh` starts up, `readline` automatically reads the init file. From the [readline doc](http://cnswww.cns.cwru.edu/php/chet/readline/readline.html#SEC9):
-
-> The name of this file is taken from the value of the environment variable INPUTRC. If that variable is unset, the default is `~/.inputrc`. If that file does not exist or cannot be read, the ultimate default is `/etc/inputrc`.
-
-Note that in the future `jsh` will change some of `readline`'s default settings, still allowing a user to override these (by re-loading the `~/.inputrc` file after changing the defaults).
-
 A sample `~/.inputrc` file:
 ```sh
 #### an ~/.inputrc file demonstrating some useful 'readline' settings ####
