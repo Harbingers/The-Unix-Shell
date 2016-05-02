@@ -66,9 +66,9 @@ The `jsh` shell can execute any executable, identified by either an absolute or 
  | Step-by-step guide to build `jsh`for your own system | Configuring the shell for your own use | Online text version of the latest `man jsh` | 
 
 ##  Configuration files:
+ * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
  * `~/.jshrc`: file containing commands to be executed at login
  * `~/.jsh_history`: containing the command history auto loaded and saved at login/logout
- * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
 
 ## Sample ~/.jsh_login file
 Sample `~/.jsh_login` file:
