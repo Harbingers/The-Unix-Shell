@@ -71,6 +71,7 @@ The `jsh` shell can execute any executable, identified by either an absolute or 
  * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
 
 ## Sample ~/.jsh_login file
+Sample `~/.jsh_login` file:
 ```
 
 hello world! This is the proof of concept jsh shell
