@@ -131,7 +131,7 @@ alias test      "echo \"this is a \\\backslash\"; echo jo&&    pwd"
 
 ## Sample ~/.jsh_logout file
 
-The content of this file is interpreted line per line by `jsh` at logout of an interactive session. It can for example be useful to print an exit message or clear the terminal screen, especially when nesting several `jsh` sessions. Note static output can be combined with the output of shell commands, as shown in the example below. (Currently this is still a bit messy as there's not yet support for a `printf` built_in and/or back ticks for command evaluation...)
+The content of this file is interpreted line per line by `jsh` at logout of an interactive session.<br />
 
 Sample `~/.jsh_logout` file:
 ``` sh
