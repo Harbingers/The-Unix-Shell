@@ -71,13 +71,6 @@ The `jsh` shell can execute any executable, identified by either an absolute or 
  * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
 
 ## Sample ~/.jsh_login file
-
-The content of this file is printed at login of an interactive session. Note this file is printed *verbatim*. Don't include shell commands to be executed here, put them in `~/.jshrc` instead. Also note it is impossible to '#' comment lines here, as they are not interpreted by the shell.
-
-If you want a mix of static strings and shell command output to be printed at login, include them in `~/.jshrc` or `source` a separate file from there. Take a look at the `~/.jsh_logout` file below for an example of static `printf` statements combined with shell command output.
-
-
-Sample `~/.jsh_login` file:
 ```
 
 hello world! This is the proof of concept jsh shell
