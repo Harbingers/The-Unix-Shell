@@ -60,10 +60,10 @@ The `jsh` shell can execute any executable, identified by either an absolute or 
 
 ## Find out
 
- | [Configuration](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [Manual](https://github.com/jovanbulck/jsh/wiki/Manual) |  
+ | [Manual](https://github.com/jovanbulck/jsh/wiki/Manual) |  
 |----|----------|----------|---------|---------|
- | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/cog.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/book.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Manual) |
- | Step-by-step guide to build `jsh`for your own system | Configuring the shell for your own use | Online text version of the latest `man jsh` | 
+ | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/book.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Manual) |
+| Configuring the shell for your own use | Online text version of the latest `man jsh` | 
 
 ##  Configuration files:
  * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
