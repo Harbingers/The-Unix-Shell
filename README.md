@@ -2,12 +2,6 @@
 
 ##  A BASIC UNIX SHELL IMPLEMENTATION IN C <br /><br /> [![build-status](https://travis-ci.org/jovanbulck/jsh.svg?branch=master)](https://travis-ci.org/jovanbulck/jsh) [![release](http://github-release-version.herokuapp.com/github/jovanbulck/jsh/release.svg?style=plastic)](https://github.com/jovanbulck/jsh/releases/latest) [![license](http://img.shields.io/:license-gpl3-orange.svg)](https://gnu.org/licenses/gpl.html)
 
-
-##  Configuration files:
- * `~/.jshrc`: file containing commands to be executed at login
- * `~/.jsh_history`: containing the command history auto loaded and saved at login/logout
- * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
-
 ## Supported options:
 * -h, --help	display the help message
 * -d, --debug	turn printing of debug messages on
@@ -70,6 +64,11 @@ The `jsh` shell can execute any executable, identified by either an absolute or 
 |----|----------|----------|---------|---------|
 | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/wrench.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Compiling-and-running) | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/cog.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Sample-configuration-files) | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/book.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Manual) |
 | Introducing the shell | Step-by-step guide to build `jsh`for your own system | Configuring the shell for your own use | Online text version of the latest `man jsh` | 
+
+##  Configuration files:
+ * `~/.jshrc`: file containing commands to be executed at login
+ * `~/.jsh_history`: containing the command history auto loaded and saved at login/logout
+ * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
 
 ## Sample ~/.jsh_login file
 
