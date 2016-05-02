@@ -83,7 +83,7 @@ hello world! This is the proof of concept jsh shell
 ```
 
 ## Sample ~/.jshrc file
-Note:  <br />
+<b>Note</b>:   <br />
 1. a character preceded by a '\' is escaped by `jsh`'s shell expansion.  <br />
 2. one can escape a arbitrary string by "quoting" it. <br />
 
