@@ -83,7 +83,9 @@ hello world! This is the proof of concept jsh shell
 ```
 
 ## Sample ~/.jshrc file
-The content of this file is interpreted line per line by the `jsh` shell at login of an interactive session. You can include any command that is understood by the `jsh` grammar here. Note a character preceded by a '\' is escaped by `jsh`'s shell expansion. Also note one can escape a arbitrary string by "quoting" it.
+Note: 
+1. a character preceded by a '\' is escaped by `jsh`'s shell expansion. 
+2. one can escape a arbitrary string by "quoting" it.
 
 Sample `~/.jshrc` file:
 ``` sh
