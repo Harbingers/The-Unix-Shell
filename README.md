@@ -252,11 +252,3 @@ set expand-tilde on                     # tilde expansion is performed on word c
 set completion-query-items number       # set the number of possible completions that determine when the user is asked whether the list of possibilities should be displayed (default 100)
 set history-size number                 # set the maximum number of history entries saved in the history list (default unlimited)
 ```
-
-
-## Get it!
-
-<a href="https://github.com/jovanbulck/jsh/releases/latest"><img src="http://jovanbulck.github.io/jsh/icons/download_icon_right_space.png"
- alt="Download logo" title="Download latest release" align="left" /></a>
-
-[This page](https://github.com/jovanbulck/jsh/releases/latest) provides pre-built binaries for all official `jsh` releases. To build `jsh` yourself, clone this respository, `cd` into it and execute `make`. See [the wiki page](https://github.com/jovanbulck/jsh/wiki/Compiling-and-running) for more info and dependencies overview.
