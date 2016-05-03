@@ -1,6 +1,0 @@
-                        _     __ 
-                       (_)__ / / 
-                      / (_-</ _ \
-                   __/ /___/_//_/
-                  |___/          
-                        a basic UNIX shell implementation in C
