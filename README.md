@@ -58,12 +58,69 @@ The `jsh` shell can execute any executable, identified by either an absolute or 
 * `alias`       // syntax: alias key "value with spaces"
 * `unalias`
 
-## Find out
+## Prompt Customizing
+       You can define a custom jsh prompt using the prompt builtin command:
+       prompt  "prompt_string" [max_cwd_length]. 
+       The first argument define the new prompt string. 
+       The second optional argument defines the maximum length for the current working directory, included with '%d'.
+       One can include the following prompt expansion options preceded by a '%' char in the prompt string:
 
- | [Manual](https://github.com/jovanbulck/jsh/wiki/Manual) |  
-|----|----------|----------|---------|---------|
- | [<div align="center"> <img src="https://jovanbulck.github.io/jsh/icons/book.svg"/> </div>](https://github.com/jovanbulck/jsh/wiki/Manual) |
-| Online text version of the latest `man jsh` | 
+       %u     includes the current username
+
+       %U     includes  the current username, colored red and bold iff sudo
+          access is activated
+
+       %h     includes the current hostname
+
+       %s     includes the return value of the last executed shell command
+
+       %S     includes the return value of the last executed shell command,
+          colored red and bold iff non-zero
+
+       %d     includes  the  current working directory. When this directory
+          path is longer then  the  value  specified  by  the  optional
+          max_cwd_length second argument (default is 25), the directory
+          path is 'smart' truncated to include the  maximum  number  of
+          individual trailing directories of the path. If the path con‐
+          tains the current user's home directory, it is replaced  with
+          a '~' char.
+
+       %g     includes  the  git branch name iff the current working direc‐
+          tory is a git repository
+
+       %c     includes a bold and red '*'  char  iff  the  current  working
+          directory  is  a  git repository and git indicates files have
+          changed since the last commit
+
+       %$     includes a '$' char or a '#' char iff sudo  access  is  acti‐
+          vated (usefull for the prompt ending)
+
+       %%     includes the verbatim '%' character
+
+       %B     turns on bold/bright text coloring
+
+       %n     restores normal coloring: turns off bold/bright text coloring
+
+       %f{color_name}
+          Enables  the specified foreground non-bold text color. Recog‐
+          nized colors are {black, red, green, yellow,  blue,  magenta,
+          cyan,  white}.  The  special  colors {reset, resetall} can be
+          used to  respectively  reset  the  foreground  color  to  the
+          default or reset all color properties to default.
+
+       %F{color_name}
+          Enables the specified foreground bold/bright text color. Rec‐
+          ognized colors are the same as with  %f  above.  The  special
+          colors  {reset, resetall} can be used to respectively disable
+          bold style and reset the foreground color to the  default  or
+          reset all color properties to default.
+
+       %b{color_name}
+          Enables  the specified background text color. Recognized col‐
+          ors are the same as with %f above. The special colors {reset,
+          resetall}  can  be  used to respectively reset the background
+          color to  the  default  or  reset  all  color  properties  to
+          default
 
 ##  Configuration files:
  * `~/.jsh_login`: file containing the ASCII welcome message auto printed at login of an interactive session
